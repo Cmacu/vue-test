@@ -6,9 +6,14 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "serve:bs": "vue-cli-service serve:bs",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "jquery": "^3.3.1",
+    "popper": "^1.0.1",
     "register-service-worker": "^1.5.2",
     "vue": "^2.5.22",
     "vue-class-component": "^6.0.0",
@@ -27,6 +32,7 @@
     "sass-loader": "^7.1.0",
     "ts-jest": "^23.0.0",
     "typescript": "^3.0.0",
+    "vue-cli-plugin-browser-sync": "^1.0.0-rc2",
     "vue-template-compiler": "^2.5.21"
   }
 }
